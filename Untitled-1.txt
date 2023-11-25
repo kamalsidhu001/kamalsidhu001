@@ -1,0 +1,8 @@
+resource "aws_s3_backet" "example"{
+ bucket ="my-tf-test-bucket"
+
+ tags = {
+    Name   ="My bucket"
+    Environment ="Dev"
+ }
+}
